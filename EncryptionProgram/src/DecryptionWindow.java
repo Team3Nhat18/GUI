@@ -1,5 +1,3 @@
-package TEAM3;
-
 import java.awt.Color;
 import java.awt.Font;
 
@@ -9,7 +7,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextArea;
 
-public class EncryptionWindow {
+public class DecryptionWindow {
 
 	public static void main(String[] args) {
 		showwindow();
@@ -39,11 +37,11 @@ public class EncryptionWindow {
 				Text1.setBounds(12, 80, 286, 170);
 				window.getContentPane().add(Text1);
 				
-				JLabel lblMaHoa = new JLabel("MA\u0303 HO\u0301A");
-				lblMaHoa.setForeground(new Color(255, 0, 0));
-				lblMaHoa.setFont(new Font("Cambria", Font.BOLD, 20));
-				lblMaHoa.setBounds(310, 13, 77, 27);
-				window.getContentPane().add(lblMaHoa);
+				JLabel lblGiaiMa = new JLabel("GIA\u0309I MA\u0303");
+				lblGiaiMa.setForeground(new Color(255, 0, 0));
+				lblGiaiMa.setFont(new Font("Cambria", Font.BOLD, 20));
+				lblGiaiMa.setBounds(310, 13, 77, 27);
+				window.getContentPane().add(lblGiaiMa);
 				
 				JTextArea Text2 = new JTextArea();
 				Text2.setEditable(false);
@@ -54,18 +52,18 @@ public class EncryptionWindow {
 				Text2.setBounds(399, 80, 286, 170);
 				window.getContentPane().add(Text2);
 				
-				JLabel EncryptedText = new JLabel("Text \u0111a\u0303 ma\u0303 ho\u0301a");
-				EncryptedText.setForeground(Color.MAGENTA);
-				EncryptedText.setFont(new Font("Cambria", Font.BOLD, 18));
-				EncryptedText.setBounds(399, 53, 136, 27);
-				window.getContentPane().add(EncryptedText);
+				JLabel DecryptedText = new JLabel("Text \u0111a\u0303 gia\u0309i ma\u0303");
+				DecryptedText.setForeground(Color.MAGENTA);
+				DecryptedText.setFont(new Font("Cambria", Font.BOLD, 18));
+				DecryptedText.setBounds(399, 53, 136, 27);
+				window.getContentPane().add(DecryptedText);
 				
-				JButton EnBtn = new JButton("");
-				EnBtn.setIcon(new ImageIcon("C:\\Users\\Admin\\Pictures\\Change3.png"));
-				EnBtn.setForeground(new Color(255, 0, 0));
-				EnBtn.setFont(new Font("Cambria", Font.PLAIN, 14));
-				EnBtn.setBounds(310, 125, 77, 44);
-				window.getContentPane().add(EnBtn);
+				JButton DeBtn = new JButton("");
+				DeBtn.setIcon(new ImageIcon("C:\\Users\\Admin\\Pictures\\Change3.png"));
+				DeBtn.setForeground(new Color(255, 0, 0));
+				DeBtn.setFont(new Font("Cambria", Font.PLAIN, 14));
+				DeBtn.setBounds(310, 125, 77, 44);
+				window.getContentPane().add(DeBtn);
 				window.setLocationRelativeTo(null);
 				
 				window.setVisible(true);

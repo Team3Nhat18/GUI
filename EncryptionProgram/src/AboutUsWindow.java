@@ -1,5 +1,3 @@
-package TEAM3;
-
 import java.awt.Color;
 import java.awt.Font;
 
